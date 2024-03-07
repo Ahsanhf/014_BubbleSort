@@ -13,4 +13,14 @@ void input() {         //prosedur untuk input
 			break; //keluar dari loop
 		else {     //jika n lebih dari 20
 			cout << "\narray dapat mempunyai maksimal 20 elemen.\n"; //output ke layar
+		}
+	}
+	cout << endl;                          //output baris kosong
+	cout << "===================" << endl; //output ke layar
+	cout << "masukan elemen array" << endl;//output ke layar
+	cout << "===================" << endl; //output ke layar
+
+	for (int i = 0; i < n; i++) {
+		cout << "data ke-" << (i + 1) << ": ";
+		cin >> arr[i];
 
